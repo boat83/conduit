@@ -1,15 +1,12 @@
 def test_con_download_data():
-    import time
     from selenium import webdriver
     from selenium.webdriver.chrome.options import Options
     from webdriver_manager.chrome import ChromeDriverManager
+    import time
 
-    options = Options()
-    options.add_argument('--headless')
-    options.add_argument('--disable-gpu')
-
-    # driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)  # headless
-    driver = webdriver.Chrome(ChromeDriverManager().install())
+    opt = Options()
+    opt.headless = True
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
     driver.get('http://localhost:1667/#/login')
 
@@ -28,7 +25,7 @@ def test_con_download_data():
     for row in my_articles:
         list_of_feed.append(row.text)
 
-    with open('list_of_feed.txt', 'a') as x:
+    with open('result_data.txt', 'a') as x:
         for i in list_of_feed:
             x.write(i + "\n")
             print(i)
