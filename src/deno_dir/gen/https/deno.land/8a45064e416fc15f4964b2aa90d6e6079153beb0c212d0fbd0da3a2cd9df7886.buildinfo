@@ -271,28 +271,28 @@
         "signature": "1",
         "affectsGlobalScope": true
       },
+      "https://deno.land/x/bcrypt@v0.2.4/src/bcrypt/base64.ts": {
+        "version": "bb483c0a47c0a01ad1d43b7c5b6104d76828d8e1b10417ad975c5a2633c62a33",
+        "signature": "0a59c0cf69b1db1c3d057203835072ca4133864804b05e014bcc5b29055c0cc0",
+        "affectsGlobalScope": false
+      },
       "https://deno.land/std@0.61.0/encoding/utf8.ts": {
-        "version": "d81c18f921135804a8106aadae98aa535c52049d6da0d683cc30fe459da9347d",
+        "version": "f58b52bb5ee88bdd0023d7290b603b3813d0592a7a7a98e77ba6129d89e170b5",
         "signature": "87ddbf69c86cdffb13a3973b913af16e8af83a5fc78ba77d11984ec4a991a26f",
         "affectsGlobalScope": false
       },
       "https://deno.land/x/bcrypt@v0.2.4/deps.ts": {
-        "version": "bf0d6acd0141a645d9ff111208a713afa7b9af0502fbf4f357961715b499337d",
+        "version": "1e87035874410e6db618ca1d472d56776d7535f86ccced28b693825d907aae94",
         "signature": "f46ff4dbec6f01fe35f939c9ac9e6659ee4efd28f20ecf720049759b4d436889",
         "affectsGlobalScope": false
       },
-      "https://deno.land/x/bcrypt@v0.2.4/src/bcrypt/base64.ts": {
-        "version": "485cb3b13d3d33337803b4bd4a33aa589123bea9b1025159954fe7ff3c7bfaad",
-        "signature": "0a59c0cf69b1db1c3d057203835072ca4133864804b05e014bcc5b29055c0cc0",
-        "affectsGlobalScope": false
-      },
       "https://deno.land/x/bcrypt@v0.2.4/src/bcrypt/bcrypt.ts": {
-        "version": "62899eb806de535901d35978fdf145711e5e181a5218aa650dd4b14751145fd1",
+        "version": "7d2da0343a657e6eb04ae67b0f8ad27935bda89db70667bc5b6a581112f55280",
         "signature": "04fa60938461ac6fd216696ea6bcaac84e78888c37122fab105ab04522b02c50",
         "affectsGlobalScope": false
       },
       "https://deno.land/x/bcrypt@v0.2.4/src/worker.ts": {
-        "version": "6dbfec74a27fdae2874d7e8429dcedf34035f20a8999abc41a7ad7da8b1c1ec3",
+        "version": "b298a07e0c7574820aa9dd53143a146f9efc86055ba0b634fc01a064ea4af405",
         "signature": "e7917ed5665e82f0911d1dd56c0507f2aaef38e3dd71af51972ae75a031b5a2a",
         "affectsGlobalScope": false
       }
