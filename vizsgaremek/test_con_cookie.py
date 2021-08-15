@@ -1,16 +1,15 @@
 def test_con_cookie():
-    import time
     from selenium import webdriver
+    import time
+
     from selenium.webdriver.chrome.options import Options
     from webdriver_manager.chrome import ChromeDriverManager
 
-    options = Options()
-    options.add_argument('--headless')
-    options.add_argument('--disable-gpu')
+    opt = Options()
+    opt.headless = True
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
-    # driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)  # headless
 
-    driver = webdriver.Chrome(ChromeDriverManager().install())
     # conduit oldalra navigalas
     driver.get('http://localhost:1667')
     time.sleep(2)
