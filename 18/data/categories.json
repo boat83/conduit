@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: '/t360/userdata.txt'",
+      "children" : [ {
+        "name" : "test_con_upload_data2",
+        "uid" : "581c6db6d18c29b4",
+        "parentUid" : "5d9703efdeff75ea634bc67491bf6f99",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629562828996,
+          "stop" : 1629562830657,
+          "duration" : 1661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d9703efdeff75ea634bc67491bf6f99"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,101 @@
+[ {
+  "uid" : "567efb31f6493244",
+  "name" : "test_con_login",
+  "time" : {
+    "start" : 1629562786569,
+    "stop" : 1629562794444,
+    "duration" : 7875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e5c86645313f0b0",
+  "name" : "test_con_write_comment",
+  "time" : {
+    "start" : 1629562830709,
+    "stop" : 1629562847187,
+    "duration" : 16478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b79dda9326563bbe",
+  "name" : "test_con_feed_list",
+  "time" : {
+    "start" : 1629562777628,
+    "stop" : 1629562786565,
+    "duration" : 8937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb1704696bb2c913",
+  "name" : "test_con_download_data",
+  "time" : {
+    "start" : 1629562770681,
+    "stop" : 1629562777624,
+    "duration" : 6943
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "308b25fb37e9c9",
+  "name" : "test_con_cookie",
+  "time" : {
+    "start" : 1629562708370,
+    "stop" : 1629562734311,
+    "duration" : 25941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "581c6db6d18c29b4",
+  "name" : "test_con_upload_data2",
+  "time" : {
+    "start" : 1629562828996,
+    "stop" : 1629562830657,
+    "duration" : 1661
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3c1d0c9865f1d56b",
+  "name" : "test_con_register",
+  "time" : {
+    "start" : 1629562802512,
+    "stop" : 1629562811519,
+    "duration" : 9007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cec0da389555acf1",
+  "name" : "test_con_update_data",
+  "time" : {
+    "start" : 1629562811523,
+    "stop" : 1629562828993,
+    "duration" : 17470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0570869f35eab72",
+  "name" : "test_con_del_article",
+  "time" : {
+    "start" : 1629562734325,
+    "stop" : 1629562770677,
+    "duration" : 36352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e03caa954e6b3e91",
+  "name" : "test_con_logout",
+  "time" : {
+    "start" : 1629562794448,
+    "stop" : 1629562802509,
+    "duration" : 8061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
