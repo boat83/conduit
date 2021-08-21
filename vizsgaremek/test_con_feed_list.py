@@ -14,7 +14,7 @@ def test_con_feed_list():
     driver.find_element_by_xpath('//fieldset//input[@placeholder="Email"]').send_keys('testuser1@example.com')
     driver.find_element_by_xpath('//fieldset//input[@placeholder="Password"]').send_keys('Abcd123$')
     driver.find_element_by_xpath('//form/button').click()
-    time.sleep(2)
+    time.sleep(4)
 
     driver.find_element_by_xpath('//div[@class="container"]//ul/li[4]/a').click()
 

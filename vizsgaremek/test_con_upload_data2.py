@@ -34,7 +34,7 @@ def test_con_upload_data2():
     find_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]').click()
     time.sleep(2)
     find_xpath('//button[@class="swal-button swal-button--confirm"]').click()
-    time.sleep(2)
+    time.sleep(4)
     logedin_user = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[4]/a').text
 
     assert username == logedin_user
