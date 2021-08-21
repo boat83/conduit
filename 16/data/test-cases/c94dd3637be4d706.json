@@ -1,0 +1,124 @@
+{
+  "uid" : "c94dd3637be4d706",
+  "name" : "test_con_upload_data2",
+  "fullName" : "vizsgaremek.test_con_upload_data2#test_con_upload_data2",
+  "historyId" : "a43d1066c447aba743128983552dba34",
+  "time" : {
+    "start" : 1629561542885,
+    "stop" : 1629561544369,
+    "duration" : 1484
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'",
+  "statusTrace" : "def test_con_upload_data2():\n        from selenium import webdriver\n        from selenium.webdriver.chrome.options import Options\n        from webdriver_manager.chrome import ChromeDriverManager\n        import time\n    \n        opt = Options()\n        opt.headless = True\n        driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)\n    \n        driver.get(\"http://localhost:1667/#/\")\n    \n        # Sign up oldalra navigalas\n        sign_up = driver.find_element_by_xpath('//*[@id=\"app\"]/nav/div/ul/li[3]/a')\n        time.sleep(1)\n        sign_up.click()\n    \n        def find_xpath(xpath):\n            element = driver.find_element_by_xpath(xpath)\n            return element\n    \n        # adat beolvasas txt filebol\n>       with open('userdata.txt') as data:\nE       FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'\n\nvizsgaremek/test_con_upload_data2.py:23: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'",
+    "statusTrace" : "def test_con_upload_data2():\n        from selenium import webdriver\n        from selenium.webdriver.chrome.options import Options\n        from webdriver_manager.chrome import ChromeDriverManager\n        import time\n    \n        opt = Options()\n        opt.headless = True\n        driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)\n    \n        driver.get(\"http://localhost:1667/#/\")\n    \n        # Sign up oldalra navigalas\n        sign_up = driver.find_element_by_xpath('//*[@id=\"app\"]/nav/div/ul/li[3]/a')\n        time.sleep(1)\n        sign_up.click()\n    \n        def find_xpath(xpath):\n            element = driver.find_element_by_xpath(xpath)\n            return element\n    \n        # adat beolvasas txt filebol\n>       with open('userdata.txt') as data:\nE       FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'\n\nvizsgaremek/test_con_upload_data2.py:23: FileNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cbe39b347060d93f",
+      "name" : "log",
+      "source" : "cbe39b347060d93f.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "668901237457343d",
+      "name" : "stderr",
+      "source" : "668901237457343d.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "vizsgaremek"
+  }, {
+    "name" : "suite",
+    "value" : "test_con_upload_data2"
+  }, {
+    "name" : "host",
+    "value" : "fv-az72-349"
+  }, {
+    "name" : "thread",
+    "value" : "3724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "vizsgaremek.test_con_upload_data2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "14caffae00c477bc",
+        "reportUrl" : "https://boat83.github.io/conduit/15//#testresult/14caffae00c477bc",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'",
+        "time" : {
+          "start" : 1629561032280,
+          "stop" : 1629561034931,
+          "duration" : 2651
+        }
+      }, {
+        "uid" : "31c69df47efe92",
+        "reportUrl" : "https://boat83.github.io/conduit/15//#testresult/31c69df47efe92",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'",
+        "time" : {
+          "start" : 1629558371174,
+          "stop" : 1629558373670,
+          "duration" : 2496
+        }
+      }, {
+        "uid" : "da5043dfb72cb3f9",
+        "reportUrl" : "https://boat83.github.io/conduit/14//#testresult/da5043dfb72cb3f9",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'",
+        "time" : {
+          "start" : 1629558242139,
+          "stop" : 1629558244694,
+          "duration" : 2555
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c94dd3637be4d706.json",
+  "parameterValues" : [ ]
+}
