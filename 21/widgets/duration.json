@@ -1,0 +1,101 @@
+[ {
+  "uid" : "6fa09d10a74ac196",
+  "name" : "test_con_logout",
+  "time" : {
+    "start" : 1629564546804,
+    "stop" : 1629564554833,
+    "duration" : 8029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8d9eb770ef2b7f8",
+  "name" : "test_con_cookie",
+  "time" : {
+    "start" : 1629564469348,
+    "stop" : 1629564488131,
+    "duration" : 18783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83e8b761aacdef7f",
+  "name" : "test_con_update_data",
+  "time" : {
+    "start" : 1629564563741,
+    "stop" : 1629564581044,
+    "duration" : 17303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d734d6539d394d7",
+  "name" : "test_con_feed_list",
+  "time" : {
+    "start" : 1629564530160,
+    "stop" : 1629564538985,
+    "duration" : 8825
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be8785a261a800b2",
+  "name" : "test_con_login",
+  "time" : {
+    "start" : 1629564538988,
+    "stop" : 1629564546801,
+    "duration" : 7813
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abfeda3c362179b8",
+  "name" : "test_con_del_article",
+  "time" : {
+    "start" : 1629564488135,
+    "stop" : 1629564523321,
+    "duration" : 35186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c931a0336dd816b",
+  "name" : "test_con_download_data",
+  "time" : {
+    "start" : 1629564523325,
+    "stop" : 1629564530156,
+    "duration" : 6831
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de7f73ff60de1fb0",
+  "name" : "test_con_upload_data2",
+  "time" : {
+    "start" : 1629564581048,
+    "stop" : 1629564583608,
+    "duration" : 2560
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a5aa63f1dfbfea95",
+  "name" : "test_con_register",
+  "time" : {
+    "start" : 1629564554836,
+    "stop" : 1629564563738,
+    "duration" : 8902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63e43a3dde3d8a3e",
+  "name" : "test_con_write_comment",
+  "time" : {
+    "start" : 1629564583651,
+    "stop" : 1629564599988,
+    "duration" : 16337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
