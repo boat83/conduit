@@ -1,0 +1,155 @@
+{
+  "uid" : "22e4d80efc762244",
+  "name" : "test_con_register",
+  "fullName" : "vizsgaremek.test_con_register#test_con_register",
+  "historyId" : "d26f889c16fb5c546e451b7ffa2a1e53",
+  "time" : {
+    "start" : 1629563163149,
+    "stop" : 1629563171977,
+    "duration" : 8828
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "225ed27e0552597",
+      "name" : "log",
+      "source" : "225ed27e0552597.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "dd437d62772f476a",
+      "name" : "stdout",
+      "source" : "dd437d62772f476a.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "d5bb0b80a988cd13",
+      "name" : "stderr",
+      "source" : "d5bb0b80a988cd13.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "vizsgaremek"
+  }, {
+    "name" : "suite",
+    "value" : "test_con_register"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "3693-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "vizsgaremek.test_con_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "3c1d0c9865f1d56b",
+        "reportUrl" : "https://boat83.github.io/conduit/18//#testresult/3c1d0c9865f1d56b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629562802512,
+          "stop" : 1629562811519,
+          "duration" : 9007
+        }
+      }, {
+        "uid" : "754ac3a9201ca908",
+        "reportUrl" : "https://boat83.github.io/conduit/17//#testresult/754ac3a9201ca908",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629561769395,
+          "stop" : 1629561778566,
+          "duration" : 9171
+        }
+      }, {
+        "uid" : "9445202f46f2c9ce",
+        "reportUrl" : "https://boat83.github.io/conduit/16//#testresult/9445202f46f2c9ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629561519774,
+          "stop" : 1629561528624,
+          "duration" : 8850
+        }
+      }, {
+        "uid" : "49ab795f58d590d",
+        "reportUrl" : "https://boat83.github.io/conduit/15//#testresult/49ab795f58d590d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629561009260,
+          "stop" : 1629561017366,
+          "duration" : 8106
+        }
+      }, {
+        "uid" : "b1b380b538882437",
+        "reportUrl" : "https://boat83.github.io/conduit/15//#testresult/b1b380b538882437",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629558348193,
+          "stop" : 1629558356985,
+          "duration" : 8792
+        }
+      }, {
+        "uid" : "9c7ce026583f225e",
+        "reportUrl" : "https://boat83.github.io/conduit/14//#testresult/9c7ce026583f225e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629558219761,
+          "stop" : 1629558227710,
+          "duration" : 7949
+        }
+      }, {
+        "uid" : "a39bc2a913f2e033",
+        "reportUrl" : "https://boat83.github.io/conduit/13//#testresult/a39bc2a913f2e033",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629049589909,
+          "stop" : 1629049598710,
+          "duration" : 8801
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "22e4d80efc762244.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,101 @@
+[ {
+  "uid" : "3b4f10068e80a40e",
+  "name" : "test_con_update_data",
+  "time" : {
+    "start" : 1629563171980,
+    "stop" : 1629563188194,
+    "duration" : 16214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc4d37d2ed905d",
+  "name" : "test_con_del_article",
+  "time" : {
+    "start" : 1629563097842,
+    "stop" : 1629563132928,
+    "duration" : 35086
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a8351f08fbeb6e",
+  "name" : "test_con_write_comment",
+  "time" : {
+    "start" : 1629563190736,
+    "stop" : 1629563206955,
+    "duration" : 16219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "124311b186bae455",
+  "name" : "test_con_feed_list",
+  "time" : {
+    "start" : 1629563138720,
+    "stop" : 1629563147549,
+    "duration" : 8829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c1d75a65b54d246",
+  "name" : "test_con_cookie",
+  "time" : {
+    "start" : 1629563073719,
+    "stop" : 1629563097828,
+    "duration" : 24109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "973b6bfcef3acb9c",
+  "name" : "test_con_upload_data2",
+  "time" : {
+    "start" : 1629563188198,
+    "stop" : 1629563190700,
+    "duration" : 2502
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5aa8cf1954433cd2",
+  "name" : "test_con_download_data",
+  "time" : {
+    "start" : 1629563132931,
+    "stop" : 1629563138717,
+    "duration" : 5786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbc012d926cbda68",
+  "name" : "test_con_login",
+  "time" : {
+    "start" : 1629563147552,
+    "stop" : 1629563155244,
+    "duration" : 7692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22e4d80efc762244",
+  "name" : "test_con_register",
+  "time" : {
+    "start" : 1629563163149,
+    "stop" : 1629563171977,
+    "duration" : 8828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "336055ec1053ccaa",
+  "name" : "test_con_logout",
+  "time" : {
+    "start" : 1629563155247,
+    "stop" : 1629563163145,
+    "duration" : 7898
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
