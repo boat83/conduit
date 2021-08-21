@@ -9,7 +9,7 @@ def test_con_update_data():
     driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
     driver.get('http://localhost:1667/#/')
 
-    login_details = ['testuser202', 'testuser202@example.com', 'Abcd123$']
+    login_details = ['testuser402', 'testuser402@example.com', 'Abcd123$']
     updated_user_name = 'michaelcorleone'
 
     driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a').click()
@@ -31,6 +31,7 @@ def test_con_update_data():
     driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[3]/a').click()
     time.sleep(3)
     driver.find_element_by_xpath('//input[@placeholder="Your username"]').clear()
+    time.sleep(3)
     # uj adat bekuldese
     driver.find_element_by_xpath('//input[@placeholder="Your username"]').send_keys(updated_user_name)
     time.sleep(2)
