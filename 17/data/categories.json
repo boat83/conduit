@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'",
+      "children" : [ {
+        "name" : "test_con_upload_data2",
+        "uid" : "df04684196729d85",
+        "parentUid" : "39b15672d76ac5fd859fcaf0851bd320",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629561795117,
+          "stop" : 1629561797783,
+          "duration" : 2666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39b15672d76ac5fd859fcaf0851bd320"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
