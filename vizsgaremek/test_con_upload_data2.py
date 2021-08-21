@@ -20,7 +20,7 @@ def test_con_upload_data2():
         return element
 
     # adat beolvasas txt filebol
-    with open('t360/AUTO/userdata.txt') as data:
+    with open("c:/x/userdata.txt") as data:
         lines = data.readlines()
     # user info kitoltes
     username = lines[0].replace("\n", "")
