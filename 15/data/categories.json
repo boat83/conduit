@@ -6,13 +6,13 @@
       "name" : "AssertionError: assert (11 - 1) == 4\n +  where 11 = int(11)\n +  and   4 = int(4)",
       "children" : [ {
         "name" : "test_con_del_article",
-        "uid" : "722140a67d1e8ee5",
+        "uid" : "4ee1b8d3cb87aa78",
         "parentUid" : "d24e9b805554cc2837b30eb11cb9e2f4",
         "status" : "failed",
         "time" : {
-          "start" : 1629558287986,
-          "stop" : 1629558323895,
-          "duration" : 35909
+          "start" : 1629560947773,
+          "stop" : 1629560984193,
+          "duration" : 36420
         },
         "flaky" : false,
         "newFailed" : false,
@@ -27,13 +27,13 @@
       "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'",
       "children" : [ {
         "name" : "test_con_upload_data2",
-        "uid" : "31c69df47efe92",
+        "uid" : "14caffae00c477bc",
         "parentUid" : "39b15672d76ac5fd859fcaf0851bd320",
         "status" : "broken",
         "time" : {
-          "start" : 1629558371174,
-          "stop" : 1629558373670,
-          "duration" : 2496
+          "start" : 1629561032280,
+          "stop" : 1629561034931,
+          "duration" : 2651
         },
         "flaky" : false,
         "newFailed" : false,

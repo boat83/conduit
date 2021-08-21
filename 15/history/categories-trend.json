@@ -7,6 +7,14 @@
     "Test defects" : 1
   }
 }, {
+  "buildOrder" : 15,
+  "reportUrl" : "https://boat83.github.io/conduit/15/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 1,
+    "Test defects" : 1
+  }
+}, {
   "buildOrder" : 14,
   "reportUrl" : "https://boat83.github.io/conduit/14/",
   "reportName" : "Allure Report with history",

@@ -11,6 +11,18 @@
     "total" : 9
   }
 }, {
+  "buildOrder" : 15,
+  "reportUrl" : "https://boat83.github.io/conduit/15/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 1,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 7,
+    "unknown" : 0,
+    "total" : 9
+  }
+}, {
   "buildOrder" : 14,
   "reportUrl" : "https://boat83.github.io/conduit/14/",
   "reportName" : "Allure Report with history",
