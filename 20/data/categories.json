@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert (11 - 1) == 4\n +  where 11 = int(11)\n +  and   4 = int(4)",
+      "children" : [ {
+        "name" : "test_con_del_article",
+        "uid" : "34c3ce5352a47f01",
+        "parentUid" : "d24e9b805554cc2837b30eb11cb9e2f4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629563889860,
+          "stop" : 1629563925220,
+          "duration" : 35360
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d24e9b805554cc2837b30eb11cb9e2f4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'c:/x/userdata.txt'",
+      "children" : [ {
+        "name" : "test_con_upload_data2",
+        "uid" : "cb14b6d601f35f6c",
+        "parentUid" : "60bdf10a3042ba8660be94acc5b7d12f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629563983865,
+          "stop" : 1629563986510,
+          "duration" : 2645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "60bdf10a3042ba8660be94acc5b7d12f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

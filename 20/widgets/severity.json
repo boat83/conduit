@@ -1,0 +1,101 @@
+[ {
+  "uid" : "66d8f96e74514a1f",
+  "name" : "test_con_logout",
+  "time" : {
+    "start" : 1629563949112,
+    "stop" : 1629563957175,
+    "duration" : 8063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ddc465fef9d43c67",
+  "name" : "test_con_cookie",
+  "time" : {
+    "start" : 1629563864371,
+    "stop" : 1629563889846,
+    "duration" : 25475
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f23f2580d129442d",
+  "name" : "test_con_download_data",
+  "time" : {
+    "start" : 1629563925268,
+    "stop" : 1629563932245,
+    "duration" : 6977
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aad6743cbcf29f34",
+  "name" : "test_con_feed_list",
+  "time" : {
+    "start" : 1629563932248,
+    "stop" : 1629563941193,
+    "duration" : 8945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb14b6d601f35f6c",
+  "name" : "test_con_upload_data2",
+  "time" : {
+    "start" : 1629563983865,
+    "stop" : 1629563986510,
+    "duration" : 2645
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e08604c0a23773b9",
+  "name" : "test_con_login",
+  "time" : {
+    "start" : 1629563941197,
+    "stop" : 1629563949103,
+    "duration" : 7906
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ceffecc1672d097f",
+  "name" : "test_con_write_comment",
+  "time" : {
+    "start" : 1629563986517,
+    "stop" : 1629564003052,
+    "duration" : 16535
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4356509a49afeb",
+  "name" : "test_con_update_data",
+  "time" : {
+    "start" : 1629563966292,
+    "stop" : 1629563983862,
+    "duration" : 17570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34c3ce5352a47f01",
+  "name" : "test_con_del_article",
+  "time" : {
+    "start" : 1629563889860,
+    "stop" : 1629563925220,
+    "duration" : 35360
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e915bcec32fa253",
+  "name" : "test_con_register",
+  "time" : {
+    "start" : 1629563957178,
+    "stop" : 1629563966289,
+    "duration" : 9111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
