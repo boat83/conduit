@@ -20,7 +20,7 @@ def test_con_upload_data2():
         return element
 
     # adat beolvasas txt filebol
-    with open("/x/userdata.txt") as data:
+    with open("vizsgaremek/userdata.txt") as data:
         lines = data.readlines()
     # user info kitoltes
     username = lines[0].replace("\n", "")
