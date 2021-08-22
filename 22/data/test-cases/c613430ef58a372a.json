@@ -1,0 +1,176 @@
+{
+  "uid" : "c613430ef58a372a",
+  "name" : "test_con_upload_data2",
+  "fullName" : "vizsgaremek.test_con_upload_data2#test_con_upload_data2",
+  "historyId" : "a43d1066c447aba743128983552dba34",
+  "time" : {
+    "start" : 1629612338665,
+    "stop" : 1629612346773,
+    "duration" : 8108
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "872b7d7efb9fe498",
+      "name" : "log",
+      "source" : "872b7d7efb9fe498.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "5c3bfa543d2c0d27",
+      "name" : "stderr",
+      "source" : "5c3bfa543d2c0d27.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "vizsgaremek"
+  }, {
+    "name" : "suite",
+    "value" : "test_con_upload_data2"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-980"
+  }, {
+    "name" : "thread",
+    "value" : "3656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "vizsgaremek.test_con_upload_data2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 9,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "de7f73ff60de1fb0",
+        "reportUrl" : "https://boat83.github.io/conduit/21//#testresult/de7f73ff60de1fb0",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '/x/userdata.txt'",
+        "time" : {
+          "start" : 1629564581048,
+          "stop" : 1629564583608,
+          "duration" : 2560
+        }
+      }, {
+        "uid" : "cb14b6d601f35f6c",
+        "reportUrl" : "https://boat83.github.io/conduit/20//#testresult/cb14b6d601f35f6c",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'c:/x/userdata.txt'",
+        "time" : {
+          "start" : 1629563983865,
+          "stop" : 1629563986510,
+          "duration" : 2645
+        }
+      }, {
+        "uid" : "973b6bfcef3acb9c",
+        "reportUrl" : "https://boat83.github.io/conduit/19//#testresult/973b6bfcef3acb9c",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 't360/AUTO/userdata.txt'",
+        "time" : {
+          "start" : 1629563188198,
+          "stop" : 1629563190700,
+          "duration" : 2502
+        }
+      }, {
+        "uid" : "581c6db6d18c29b4",
+        "reportUrl" : "https://boat83.github.io/conduit/18//#testresult/581c6db6d18c29b4",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '/t360/userdata.txt'",
+        "time" : {
+          "start" : 1629562828996,
+          "stop" : 1629562830657,
+          "duration" : 1661
+        }
+      }, {
+        "uid" : "df04684196729d85",
+        "reportUrl" : "https://boat83.github.io/conduit/17//#testresult/df04684196729d85",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'",
+        "time" : {
+          "start" : 1629561795117,
+          "stop" : 1629561797783,
+          "duration" : 2666
+        }
+      }, {
+        "uid" : "c94dd3637be4d706",
+        "reportUrl" : "https://boat83.github.io/conduit/16//#testresult/c94dd3637be4d706",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'",
+        "time" : {
+          "start" : 1629561542885,
+          "stop" : 1629561544369,
+          "duration" : 1484
+        }
+      }, {
+        "uid" : "14caffae00c477bc",
+        "reportUrl" : "https://boat83.github.io/conduit/15//#testresult/14caffae00c477bc",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'",
+        "time" : {
+          "start" : 1629561032280,
+          "stop" : 1629561034931,
+          "duration" : 2651
+        }
+      }, {
+        "uid" : "31c69df47efe92",
+        "reportUrl" : "https://boat83.github.io/conduit/15//#testresult/31c69df47efe92",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'",
+        "time" : {
+          "start" : 1629558371174,
+          "stop" : 1629558373670,
+          "duration" : 2496
+        }
+      }, {
+        "uid" : "da5043dfb72cb3f9",
+        "reportUrl" : "https://boat83.github.io/conduit/14//#testresult/da5043dfb72cb3f9",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'userdata.txt'",
+        "time" : {
+          "start" : 1629558242139,
+          "stop" : 1629558244694,
+          "duration" : 2555
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c613430ef58a372a.json",
+  "parameterValues" : [ ]
+}

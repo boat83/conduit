@@ -1,0 +1,182 @@
+{
+  "uid" : "b1da2a86a4a43716",
+  "name" : "test_con_login",
+  "fullName" : "vizsgaremek.test_con_login#test_con_login",
+  "historyId" : "c08ceb16373719849f64ba48d92d6314",
+  "time" : {
+    "start" : 1629612297876,
+    "stop" : 1629612305788,
+    "duration" : 7912
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a721e85720f35dd8",
+      "name" : "log",
+      "source" : "a721e85720f35dd8.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "7215f137b67f3481",
+      "name" : "stdout",
+      "source" : "7215f137b67f3481.txt",
+      "type" : "text/plain",
+      "size" : 3
+    }, {
+      "uid" : "b97d2e53761a485d",
+      "name" : "stderr",
+      "source" : "b97d2e53761a485d.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "vizsgaremek"
+  }, {
+    "name" : "suite",
+    "value" : "test_con_login"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-980"
+  }, {
+    "name" : "thread",
+    "value" : "3656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "vizsgaremek.test_con_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "be8785a261a800b2",
+        "reportUrl" : "https://boat83.github.io/conduit/21//#testresult/be8785a261a800b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629564538988,
+          "stop" : 1629564546801,
+          "duration" : 7813
+        }
+      }, {
+        "uid" : "e08604c0a23773b9",
+        "reportUrl" : "https://boat83.github.io/conduit/20//#testresult/e08604c0a23773b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629563941197,
+          "stop" : 1629563949103,
+          "duration" : 7906
+        }
+      }, {
+        "uid" : "cbc012d926cbda68",
+        "reportUrl" : "https://boat83.github.io/conduit/19//#testresult/cbc012d926cbda68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629563147552,
+          "stop" : 1629563155244,
+          "duration" : 7692
+        }
+      }, {
+        "uid" : "567efb31f6493244",
+        "reportUrl" : "https://boat83.github.io/conduit/18//#testresult/567efb31f6493244",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629562786569,
+          "stop" : 1629562794444,
+          "duration" : 7875
+        }
+      }, {
+        "uid" : "15ade3ad40176bba",
+        "reportUrl" : "https://boat83.github.io/conduit/17//#testresult/15ade3ad40176bba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629561754435,
+          "stop" : 1629561761306,
+          "duration" : 6871
+        }
+      }, {
+        "uid" : "69bec98a7eb2e798",
+        "reportUrl" : "https://boat83.github.io/conduit/16//#testresult/69bec98a7eb2e798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629561505284,
+          "stop" : 1629561511975,
+          "duration" : 6691
+        }
+      }, {
+        "uid" : "7a8d7d06a0db7607",
+        "reportUrl" : "https://boat83.github.io/conduit/15//#testresult/7a8d7d06a0db7607",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629560993247,
+          "stop" : 1629561001179,
+          "duration" : 7932
+        }
+      }, {
+        "uid" : "73c05ad524217fe6",
+        "reportUrl" : "https://boat83.github.io/conduit/15//#testresult/73c05ad524217fe6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629558332687,
+          "stop" : 1629558340375,
+          "duration" : 7688
+        }
+      }, {
+        "uid" : "4c6fd33312e0cf08",
+        "reportUrl" : "https://boat83.github.io/conduit/14//#testresult/4c6fd33312e0cf08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629558203910,
+          "stop" : 1629558211737,
+          "duration" : 7827
+        }
+      }, {
+        "uid" : "a46cbb54ce043bb8",
+        "reportUrl" : "https://boat83.github.io/conduit/13//#testresult/a46cbb54ce043bb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629049574374,
+          "stop" : 1629049582075,
+          "duration" : 7701
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b1da2a86a4a43716.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,101 @@
+[ {
+  "uid" : "b43af54a52980266",
+  "name" : "test_con_download_data",
+  "time" : {
+    "start" : 1629612282754,
+    "stop" : 1629612288753,
+    "duration" : 5999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1da2a86a4a43716",
+  "name" : "test_con_login",
+  "time" : {
+    "start" : 1629612297876,
+    "stop" : 1629612305788,
+    "duration" : 7912
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2137a60030d0820c",
+  "name" : "test_con_write_comment",
+  "time" : {
+    "start" : 1629612346777,
+    "stop" : 1629612363380,
+    "duration" : 16603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c613430ef58a372a",
+  "name" : "test_con_upload_data2",
+  "time" : {
+    "start" : 1629612338665,
+    "stop" : 1629612346773,
+    "duration" : 8108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7d1739a3e0cccf5",
+  "name" : "test_con_del_article",
+  "time" : {
+    "start" : 1629612246252,
+    "stop" : 1629612282749,
+    "duration" : 36497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd07fc77e041da53",
+  "name" : "test_con_register",
+  "time" : {
+    "start" : 1629612314026,
+    "stop" : 1629612322069,
+    "duration" : 8043
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e97ffcda5df1d3e",
+  "name" : "test_con_cookie",
+  "time" : {
+    "start" : 1629612221253,
+    "stop" : 1629612246248,
+    "duration" : 24995
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c2b2900b3dc8c04",
+  "name" : "test_con_logout",
+  "time" : {
+    "start" : 1629612305792,
+    "stop" : 1629612314022,
+    "duration" : 8230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8731060f7ca1ce8",
+  "name" : "test_con_feed_list",
+  "time" : {
+    "start" : 1629612288757,
+    "stop" : 1629612297872,
+    "duration" : 9115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b50ceb60e5031af",
+  "name" : "test_con_update_data",
+  "time" : {
+    "start" : 1629612322073,
+    "stop" : 1629612338661,
+    "duration" : 16588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
